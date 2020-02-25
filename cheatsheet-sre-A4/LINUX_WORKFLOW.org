@@ -82,4 +82,8 @@ Types of System Calls:
 
 [[https://www.geeksforgeeks.org/introduction-of-system-call/][Link: Introduction of System Call]]
 ** Explain how systemtap works
+SystemTap is a tracing and probing tool that allows users to study and monitor the activities of the operating system (particularly, the kernel) in fine detail.
+
 [[https://www.thegeekdiary.com/how-to-find-which-process-is-killing-mysqld-with-sigkill-or-sigterm-on-linux/][Link: How to find Which Process Is Killing mysqld With SIGKILL or SIGTERM on Linux]]
+** Explain hostname to ip address mapping workflow
+

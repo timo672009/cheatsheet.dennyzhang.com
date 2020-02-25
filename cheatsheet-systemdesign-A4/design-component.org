@@ -150,3 +150,10 @@ Industry Reference
 *** High Level Design
 *** Detail Design
 *** Follow-up
+** Find duplicates files across 1000 servers with 10 million files
+*** Requirements With Clarifications
+*** Scale
+*** High Level Design
+*** Detail Design
+*** Follow-up
+- [[https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=303107&highlight=sre][易贝 SRE 面经]]

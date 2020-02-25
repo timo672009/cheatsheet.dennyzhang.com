@@ -80,14 +80,15 @@ File me [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/issues][Issues
 |   4 | What happens, when "touch a.txt"                          | [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/blob/master/cheatsheet-sre-A4/LINUX_WORKFLOW.org#what-happens-when-touch-atxt][Github Link]]                                           |
 |   5 | What happens, when you press power on button in a server? | [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/blob/master/cheatsheet-sre-A4/LINUX_WORKFLOW.org#what-happens-when-you-press-power-on-button-in-a-server][Github Link]]. bios, mbr, grub, init, runlevel          |
 |   6 | What happens, when "cat /etc/hosts"                       | [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/blob/master/cheatsheet-sre-A4/LINUX_WORKFLOW.org#what-happens-when-cat-etchosts][Github Link]]                                           |
-|   7 | Explain init.d workflow                                   | [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/blob/master/cheatsheet-sre-A4/LINUX_WORKFLOW.org#explain-initd-workflow][Github Link]]                                           |
-|   8 | Explain how to build a linux release                      | [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/blob/master/cheatsheet-sre-A4/LINUX_WORKFLOW.org#explain-how-to-build-a-linux-release][Github Link]]                                           |
-|   9 | Explain how kernel schedules process                      | [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/blob/master/cheatsheet-sre-A4/LINUX_WORKFLOW.org#explain-how-kernel-schedules-process][Github Link]]                                           |
-|  10 | Explain how kernel read data from disk                    | [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/blob/master/cheatsheet-sre-A4/LINUX_WORKFLOW.org#explain-how-kernel-read-data-from-disk][Github Link]]                                           |
-|  11 | Explain how systemtap works                               | [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/blob/master/cheatsheet-sre-A4/LINUX_WORKFLOW.org#explain-how-kernel-read-data-from-disk][Github Link]]                                           |
-|  12 | Explain how I/O interrupt works                           | [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/blob/master/cheatsheet-sre-A4/LINUX_WORKFLOW.org##explain-how-io-interrupt-works][Github Link]]. Top half, bottom half, interrupt handler |
-|  13 | Explain how system call works                             | [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/blob/master/cheatsheet-sre-A4/LINUX_WORKFLOW.org#explain-how-system-call-works][Github Link]]                                           |
-|  14 | [[https://jvns.ca/blog/2016/01/23/sendfile-a-new-to-me-system-call/][Linux sendfile with zero-copy]]                             |                                                       |
+|   7 | Explain hostname to ip address mapping workflow           | [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/blob/master/cheatsheet-sre-A4/LINUX_WORKFLOW.org#explain-hostname-to-ip-address-mapping-workflow][Github Link]]                                           |
+|   8 | Explain init.d workflow                                   | [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/blob/master/cheatsheet-sre-A4/LINUX_WORKFLOW.org#explain-initd-workflow][Github Link]]                                           |
+|   9 | Explain how to build a linux release                      | [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/blob/master/cheatsheet-sre-A4/LINUX_WORKFLOW.org#explain-how-to-build-a-linux-release][Github Link]]                                           |
+|  10 | Explain how kernel schedules process                      | [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/blob/master/cheatsheet-sre-A4/LINUX_WORKFLOW.org#explain-how-kernel-schedules-process][Github Link]]                                           |
+|  11 | Explain how kernel read data from disk                    | [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/blob/master/cheatsheet-sre-A4/LINUX_WORKFLOW.org#explain-how-kernel-read-data-from-disk][Github Link]]                                           |
+|  12 | Explain how systemtap works                               | [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/blob/master/cheatsheet-sre-A4/LINUX_WORKFLOW.org#explain-how-systemtap-works][Github Link]]                                           |
+|  13 | Explain how I/O interrupt works                           | [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/blob/master/cheatsheet-sre-A4/LINUX_WORKFLOW.org##explain-how-io-interrupt-works][Github Link]]. Top half, bottom half, interrupt handler |
+|  14 | Explain how system call works                             | [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/blob/master/cheatsheet-sre-A4/LINUX_WORKFLOW.org#explain-how-system-call-works][Github Link]]                                           |
+|  15 | [[https://jvns.ca/blog/2016/01/23/sendfile-a-new-to-me-system-call/][Linux sendfile with zero-copy]]                             |                                                       |
 #+TBLFM: $1=@-1$1+1;N
 ** Top 20 Linux Advanced Questions
 | Num | Name                                                                 | Summary                                                             |
@@ -115,12 +116,15 @@ File me [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/issues][Issues
 #+TBLFM: $1=@-1$1+1;N
 
 ** Top 20 SRE Questions
-| Num | Name                                                                | Summary                                   |
-|-----+---------------------------------------------------------------------+-------------------------------------------|
-|   2 | How to do a online rolling upgrade for a given system?              | Single node, or multiple node?            |
-|   3 | How you migrate legacy on-prem app to cloud-native in public cloud? |                                           |
+| Num | Name                                                                | Summary                        |
+|-----+---------------------------------------------------------------------+--------------------------------|
+|   1 | [Logging]                                                           |                                |
+|   2 | [Monitoring]                                                        |                                |
+|   3 | [Migration] Regional failure                                        |                                |
+|   4 | [Deployment] How to do a online rolling upgrade for a given system? | Single node, or multiple node? |
+|   5 | [HA] DB                                                             |                                |
+|   6 | How you migrate legacy on-prem app to cloud-native in public cloud? |                                |
 #+TBLFM: $1=@-1$1+1;N
-
 ** Top 20 Container Questions
 | Num | Name                                                            | Summary |
 |-----+-----------------------------------------------------------------+---------|
